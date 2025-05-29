@@ -56,3 +56,11 @@ body {
 .modal-title{
   color:rgb(235, 167, 104);
 }
+
+.butt{
+  background-color: rgb(209, 121, 38);  
+  color: rgb(45, 138, 138);
+  border: 2px solid black; 
+  padding: 5px;
+  display: inline-block;
+}

@@ -1,18 +1,18 @@
 body {
     font-family:  'Baloo', cursive;
-
   }
 
   .interesse {
-    text-align: center;
+    text-align: justify;
     height: 80%; /* Define a altura total da página */
-    margin: 150px;    /* Remove a margem padrão */
+    margin: 20px;    /* Remove a margem padrão */
   }
   .form-check{
     background-color: rgb(235, 167, 104);
   }
   h2{
     color:  rgb(235, 167, 104); ;
+    text-align: center
   }
   .but{
     background-color: rgb(235, 167, 104);  ;
@@ -44,10 +44,10 @@ body {
 /* Ajuste para os botões de ação ao lado direito */
 .navbar .btn {
     margin-left: 5px;
+    
 }
 .navbar-brand{
     margin-left: 30px;
-
 }
 .but{
   background-color: rgb(235, 167, 104);  ;
@@ -55,4 +55,39 @@ body {
 
 .modal-title{
   color:rgb(235, 167, 104);
+}
+.interesse button.but {
+  display: block;
+  margin: 30px auto; 
+  color: #000000;
+  outline: none;
+  border-color: red;
+  border-radius: 6px;
+}
+.btn-voltar {
+  background-color: #d4671e; /* cinza */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-voltar:hover {
+  background-color: #d4671eb6;
+}
+
+.btn-concluido {
+  background-color: #289fa7; /* verde */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-concluido:hover {
+  background-color: #289fa7bb;
 }
