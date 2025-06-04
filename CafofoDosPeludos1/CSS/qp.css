@@ -18,14 +18,36 @@ body {
     display:flex ;
 }
 .formq{
-    
     color: rgb(59, 120, 252);
+    position: relative;
+    left: 3px;
+}
+.formq1{
+    color:#ffa600d8;
 }
 .h1qf{
     margin-top: 20px;
     color: orange;
+    text-align: center;
 }
 #butaof{
-    background-color:orange;
-    
+color: white;
+background-color: orange;
+border: none;
+border-radius: 20px;
+padding: 10px 20px;
+font-weight: bold;
+cursor: pointer;
+transition: background-color 0.3s ease; 
+}
+
+#butaof1{
+color: white;
+background-color: #029ae6;
+border: none;
+border-radius: 20px;
+padding: 10px 20px;
+font-weight: bold;
+cursor: pointer;
+transition: background-color 0.3s ease; 
 }

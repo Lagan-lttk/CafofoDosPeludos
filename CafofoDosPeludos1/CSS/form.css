@@ -42,7 +42,25 @@ form {
     margin: 3%;
 }
 .but{
-    background-color: rgb(235, 167, 104); 
+color: white;
+background-color: #E0935E;
+border: none;
+border-radius: 20px;
+padding: 10px 20px;
+font-weight: bold;
+cursor: pointer;
+transition: background-color 0.3s ease; 
+}
+
+.but1{
+color: white;
+background-color: #17a2b8;
+border: none;
+border-radius: 20px;
+padding: 10px 20px;
+font-weight: bold;
+cursor: pointer;
+transition: background-color 0.3s ease; 
 }
 
 /* css do  form2 */

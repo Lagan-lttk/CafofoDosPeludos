@@ -4,12 +4,15 @@
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
 
     <link rel="stylesheet" href="css/css.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/BN.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo&display=swap" rel="stylesheet">
+
 
 
     <title>Cafofo dos Peludos</title>
@@ -97,22 +100,21 @@
 
 
 <div class="container1">
-
-    <div class="card">
+    <div class="card" data-tilt data-tilt-max="8" data-tilt-speed="200">
       <img src="./img/adotar1.png" alt="Adoção">
       <h3>Ache seu novo amiguinho</h3>
       <p>Adotar um animalzinho é um gesto de carinho e responsabilidade. Antes de decidir, avalie se você tem condições de cuidar dele. Procure abrigos ou ONGs e visite os animais disponíveis. Escolha com atenção, considerando o temperamento e as necessidades do pet. Após a adoção, ofereça cuidados, carinho e um ambiente seguro.</p>
       <p class="link-1">Confira a lista de animais <a href="pag1.html">aqui</a>.</p>
     </div>
 
-    <div class="card">
+    <div class="card" data-tilt data-tilt-max="8" data-tilt-speed="200">
       <img src="img/adocao.png" alt="Formulário">
       <h3>Formulário de interesse</h3>
       <p>Se você está pensando em adotar um pet, o primeiro passo é preencher o formulário de adoção. Esse formulário ajuda os abrigos a entender melhor seu perfil e garantir que você está pronto para assumir a responsabilidade de cuidar de um animal. Ao preenchê-lo, seja honesto sobre sua rotina, espaço disponível e expectativas, para que o abrigo possa orientar a melhor escolha de pet para você.</p>
       <p class="link">Confira nosso formulário <a href="declaracao.html">aqui</a>.</p>
     </div>
 
-    <div class="card">
+    <div class="card" data-tilt data-tilt-max="8" data-tilt-speed="200">
       <img src="img/formularioa2.png" alt="Adoção finalizada">
       <h3>Adoção finalizada</h3>
       <p>A adoção do seu novo amigo está completa e agora vocês começam uma jornada de muitos momentos especiais juntos. Agradecemos por escolher adotar e por oferecer um lar cheio de amor e cuidado. Seu gesto faz toda a diferença na vida do animal e contribui para um futuro mais seguro e feliz para ele. Desejamos muitas alegrias e um vínculo duradouro com seu novo companheiro!</p>
@@ -153,5 +155,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+  VanillaTilt.init(document.querySelectorAll(".card[data-tilt]"), {
+    max: 8,
+    speed: 200
+  });
+</script>
   </body>
 </html>

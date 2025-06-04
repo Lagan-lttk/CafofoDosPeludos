@@ -8,11 +8,13 @@ body {
   margin: 150px;    /* Remove a margem padrão */
 }
 .form-check{
-  background-color: rgb(235, 167, 104);
+  margin-bottom: 1px;
+  width: fit-content;
+  
 }
 
 h2{
-  color:  rgb(235, 167, 104); ;
+  color: rgb(235, 167, 104); ;
 }
 
 .but{
@@ -118,6 +120,8 @@ p {
 .card p {
   text-align: justify;
   margin-bottom: 10px;
+  transform: scale();
+  transition: 2s;
 }
 
 .link {
@@ -182,5 +186,6 @@ footer {
   padding-top: 1%;
 }
 
-
-
+body {
+  overflow-x: hidden;
+}
